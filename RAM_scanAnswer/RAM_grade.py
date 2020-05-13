@@ -169,3 +169,4 @@ for (row_num, rect_row) in enumerate(np.arange(0, len(ques_cnts) - 4, 12)):  # �
 score = (correct / 40.0) * 100
 print("最终得分：%.2f分" % score)
 cv_show('result', ans_paper)
+# end
